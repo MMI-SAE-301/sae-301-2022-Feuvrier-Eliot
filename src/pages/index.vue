@@ -45,16 +45,7 @@
 
 <div class="flex flex-row  bg-gradient-to-b from-Violet-Bleu-0 via-Violet-Bleu-0 to-Noir-0 ">
   <img src="public/montre bracelet.png" alt="montre descriptif">
-  <img class="" src="public/photo-montre-sur-la-main.jpg" alt="montre sur la main">
-  </div>
-
-  <div>
-    <h2>Voir les différents modèles disponibles</h2>
-
-  <p>
-     Tik.Tak propose différents modèles pour toujours pousser la création de plus en plus loin.
-     Vous aurez le choix parmi une multitude de modèles différents et c’est à vous de choisir celui qui vous correspond
-  </p>
+  <img class="" src="public/image-2-page-d'accueil.png" alt="montre sur la main">
   </div>
 
 </div>

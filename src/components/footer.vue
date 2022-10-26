@@ -2,7 +2,7 @@
 
 <div class="bg-gradient-to-b from-Noir-0 via-Noir-0 to-Violet-Bleu-0 ">
 
-    <h1 class="font-liberation font-bold text-2xl text-white mb-28">Tik.Tak</h1>
+    <h1 class="font-liberation font-bold text-2xl text-white mb-80">Tik.Tak</h1>
 
     <div class="gap-12 pb-4 flex justify-center ">
         <router-link class="font-liberation font-bold text-xl text-white" to="/">Retour</router-link>
