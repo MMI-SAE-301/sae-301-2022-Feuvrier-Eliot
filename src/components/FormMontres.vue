@@ -41,18 +41,27 @@ async function upsertMontre(dataForm, node) {
             <div>
                 <h1 class="text-white">Bracelet</h1>
                 <br>
-            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-8 mb-20">
+            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-8 mb-5">
                 <FormKitListColors name="bracelet" />
             </div>
         </div>
             <br>
-            <div class="bg-Gris-0">
-        <FormKitListColors name="boitier" label="boitier" />
-         </div>
-         <br>
-        <div class="bg-Gris-0">
-        <FormKitListColors name="ecran" label="ecran" />
-    </div>
+            <div>
+                <h1 class="text-white">Boitier</h1>
+                <br>
+            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-8 mb-5">
+                <FormKitListColors name="boitier" />
+            </div>
+        </div>
+            <br>
+            <div>
+                <h1 class="text-white">Ecran</h1>
+                <br>
+            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-8 mb-5">
+                <FormKitListColors name="ecran" />
+            </div>
+        </div>
+            <br>
 
         </FormKit>
 
