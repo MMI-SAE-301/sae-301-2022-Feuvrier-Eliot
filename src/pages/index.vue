@@ -45,7 +45,7 @@
 
 <div class="flex flex-row  bg-gradient-to-b from-Violet-Bleu-0 via-Violet-Bleu-0 to-Noir-0 ">
   <img src="public/montre bracelet.png" alt="montre descriptif">
-  <img class="" src="public/image-2-page-d'accueil.png" alt="montre sur la main">
+  <img class="w-max" src="public/image-2-page-d'accueil.png" alt="montre sur la main">
   </div>
 
 </div>
