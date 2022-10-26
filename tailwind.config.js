@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily : {
-        'liberation-bold': ['liberation-sans','sans-serif']
+        'liberation': ['liberation-sans','sans-serif']
       },
       colors: {
         'Blanc': ['#FFFAF0'],
