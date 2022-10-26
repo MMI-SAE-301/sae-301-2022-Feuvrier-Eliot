@@ -30,7 +30,7 @@ async function upsertMontre(dataForm, node) {
 </script>
 
 <template>
-    <div class="flex justify-evenly">
+    <div class="flex justify-center gap-40">
         <br>
         <div class="w-80 bg-Gris-0 rounded-3xl pl-10 pr-10 py-10 mb-20">
             <Montres class="" v-bind="montre" id="profil" />
@@ -41,7 +41,7 @@ async function upsertMontre(dataForm, node) {
             <div>
                 <h1 class="text-white">Bracelet</h1>
                 <br>
-            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-8 mb-5">
+            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-5 mb-2">
                 <FormKitListColors name="bracelet" />
             </div>
         </div>
@@ -49,7 +49,7 @@ async function upsertMontre(dataForm, node) {
             <div>
                 <h1 class="text-white">Boitier</h1>
                 <br>
-            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-8 mb-5">
+            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-5 mb-2">
                 <FormKitListColors name="boitier" />
             </div>
         </div>
@@ -57,7 +57,7 @@ async function upsertMontre(dataForm, node) {
             <div>
                 <h1 class="text-white">Ecran</h1>
                 <br>
-            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-8 mb-5">
+            <div class="bg-Gris-0 rounded-3xl pl-8 pr-5 py-5 mb-2">
                 <FormKitListColors name="ecran" />
             </div>
         </div>

@@ -16,4 +16,5 @@
 import { Bars3Icon } from "@heroicons/vue/20/solid";
 import Header from './components/header.vue';
 import Footer from './components/footer.vue';
+import LoginLogout from './components/LoginLogout.vue'
 </script>
