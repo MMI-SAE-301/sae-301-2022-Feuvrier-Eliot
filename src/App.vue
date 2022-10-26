@@ -1,4 +1,6 @@
 <template>
+
+  <Header></Header>
   <nav>
     <h4 class="text-xl">
       <Bars3Icon class="inline-block h-5 w-5 text-blue-500" />
@@ -13,13 +15,18 @@
       </li>
     </ul>
   </nav>
+  
 
   <!-- Affiche les pages -->
   <Suspense>
     <router-view class="m-2 border-2 p-2" />
   </Suspense>
+
+  <Footer></Footer>
 </template>
 
 <script setup lang="ts">
 import { Bars3Icon } from "@heroicons/vue/20/solid";
+import Header from './components/header.vue';
+import Footer from './components/footer.vue';
 </script>
