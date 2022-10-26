@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-    <FormKit
+    <FormKit 
     :name="name"
     :label="label"
     value="#FFFFFF"

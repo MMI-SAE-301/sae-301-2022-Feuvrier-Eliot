@@ -15,7 +15,7 @@
         </div>
         <!-- button + arrow -->
         <div class="flex justify-end gap-6 mt-7">
-          <button class="bg-Noir-0 text-white font-liberation text-base py-4 px-8 rounded-xl">En Savoir plus</button>
+          <button class="bg-Noir-0 text-white font-liberation text-base py-4 px-8 rounded-xl">En savoir plus</button>
           <img src="public/flèche.svg">
         </div>
       </div>

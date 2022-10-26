@@ -12,7 +12,8 @@ module.exports = {
         'Blanc': ['#FFFAF0'],
         'Noir': ['#000000'],
         'Violet-Bleu-dark': ['#3B2067'],
-        'Violet-Bleu': ['#9250FD']
+        'Violet-Bleu': ['#9250FD'],
+        'Gris': ['#272727']
         
       },
     },

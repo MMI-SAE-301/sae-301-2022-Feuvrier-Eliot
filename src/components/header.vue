@@ -6,7 +6,7 @@
             </div>
             <div class="flex gap-16 ">
                 <router-link class="font-liberation font-bold text-2xl " to="/">Nos modèles</router-link>
-                <router-link class="font-liberation font-bold text-2xl " to="/personalistion">Personnalisation</router-link>
+                <router-link class="font-liberation font-bold text-2xl " to="/personnalisation">Personnalisation</router-link>
                 <router-link class="font-liberation font-bold text-2xl " to="/">À propos</router-link>
                 <img class="w-11 flex-initial" src="public/logo-profil.svg" alt="logo-profil">
                 <img class="w-11 flex-initial" src="public/logo-panier.svg" alt="logo-panier">

@@ -6,7 +6,7 @@
 import FormKitListColors from "./FormKitListColors.vue";
 import Montres from "./Montre.vue";
 const router = useRouter();
-const basket = ref({});
+const montre = ref({});
 
 const props = defineProps(["id", "Montre"]);
 if (props.id) {
@@ -17,7 +17,7 @@ if (props.id) {
  .eq("id", props.id);
  if (error || !data)
  console.log("n'a pas pu charger la table montre :", error);
- else basket.value = data[0];
+ else montre.value = data[0];
 }
 async function upsertMontre(dataForm, node) {
  const { data, error } = await supabase.from("Montre").upsert(dataForm);
@@ -30,16 +30,18 @@ async function upsertMontre(dataForm, node) {
 </script>
 
 <template>
-        <div class="carousel w-64">
-            <Montres class="carousel-item w-64" v-bind="basket" id="profil" />
+    <div class="flex justify-evenly">
+        <div class="carousel w-64 ">
+            <Montres class="carousel-item w-64" v-bind="montre" id="profil" />
         </div>
-<div>
-        <FormKit type="form" v-model="basket" @submit="upsertMontre">
- <FormKitListColors name="bracelet" label="bracelet" />
- <FormKitListColors name="boitier" label="boitier" />
- <FormKitListColors name="ecran" label="ecran" />
+        <div>
+        <FormKit type="form" v-model="montre" @submit="upsertMontre">
+        <FormKitListColors name="bracelet" label="bracelet" />
+        <FormKitListColors name="boitier" label="boitier" />
+        <FormKitListColors name="ecran" label="ecran" />
 
- </FormKit>
+        </FormKit>
 
+        </div>
     </div>
 </template>
