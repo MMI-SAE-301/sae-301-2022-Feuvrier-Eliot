@@ -36,9 +36,15 @@
         
     </div>
 
+    <div class="bg-gradient-to-b from-Violet-Bleu-0 via-Violet-Bleu-0 to-Noir-0 pb-20 ">
+    <h1 class="font-liberation text-4xl text-white font-bold ml-64 mb-36">Vos différents modèles</h1>
+    <ListeMontre />
+    </div>
+
 </template>
 
 <script setup lang="ts">
 import Form from '@/components/FormMontres.vue';
 import Montre from '@/components/Montre.vue';
+import ListeMontre from '@/components/ListeMontre.vue';
 </script>
