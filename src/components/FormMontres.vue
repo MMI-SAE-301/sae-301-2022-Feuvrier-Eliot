@@ -31,14 +31,28 @@ async function upsertMontre(dataForm, node) {
 
 <template>
     <div class="flex justify-evenly">
-        <div class="carousel w-64 ">
-            <Montres class="carousel-item w-64" v-bind="montre" id="profil" />
+        <br>
+        <div class="w-80 bg-Gris-0 rounded-3xl pl-10 pr-10 py-10 mb-20">
+            <Montres class="" v-bind="montre" id="profil" />
         </div>
+        <br>
         <div>
         <FormKit type="form" v-model="montre" @submit="upsertMontre">
-        <FormKitListColors name="bracelet" label="bracelet" />
+            <div>
+                <h1 class="text-white">Bracelet</h1>
+                <br>
+            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-8 mb-20">
+                <FormKitListColors name="bracelet" />
+            </div>
+        </div>
+            <br>
+            <div class="bg-Gris-0">
         <FormKitListColors name="boitier" label="boitier" />
+         </div>
+         <br>
+        <div class="bg-Gris-0">
         <FormKitListColors name="ecran" label="ecran" />
+    </div>
 
         </FormKit>
 
