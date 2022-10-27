@@ -1,11 +1,11 @@
 # code de base pour TP (et future SAE 301)
 
-- **Nom :**
-- **Prénom :**
-- **URL maquette Figma:**
-- **URL publique du site :**
-- **URL projet Supabase :**
-  - [ ] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
+- **Nom :Feuvrier**
+- **Prénom :Eliot**
+- **URL maquette Figma:https://www.figma.com/file/6aQJBM3Ar6IY1vupOpRTHu/Maquette-SAE-301-Eliot-Feuvrier?node-id=58%3A148**
+- **URL publique du site :tiktak.eliot-feuvrier.fr**
+- **URL projet Supabase :https://jwyskobrrsjojmodvmyf.supabase.co**
+  - [X] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
 
 # Auto-évaluation
 
@@ -13,9 +13,9 @@
 
 Vous avez rendu à la racine du projet :
 
-- [ ] Le modèle conceptuel de données (nom : [MCD.png](/MCD.png) ou [MCD.pdf](/MCD.pdf) [^1])
-- [ ] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
-- [ ] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
+- [X] Le modèle conceptuel de données (nom : [MCD.png](/MCD.png) ou [MCD.pdf](/MCD.pdf) [^1])
+- [X] Et compléter le fichier [bdd.sql](/bdd.sql) détaillant le code pour la création des tables, vues et policies créées
+- [X] Avez-vous bien invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase comme développeur ?
 
 ## R312 | Intégrer ([Pierre Pracht : AC 2401](https://moodle.univ-fcomte.fr/mod/assign/view.php?id=612668))
 
@@ -34,8 +34,8 @@ Noté sur 40.
 - [ ] usage de Classes utilitaires (1pt)
   - lien vers sa définition
   - lien vers son usage
-- [ ] Composants graphiques (0-1-2pts)
-  - liens
+- [X] Composants graphiques (0-1-2pts)
+  [lien composant](/src/components/Montre.vue)
 - Technique CSS (0-1-2pts)
   - Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
     config. Tailwind (eg. before/after avec content, background...))
@@ -54,11 +54,11 @@ Noté sur 40.
   - [ ] Mise en place avec usage de custom property pour les couleurs. Ou usage de DaisyUI AVEC thèmes perso
     - liens
 - "tailwin.config.js" (0-1-2pts)
-  - [ ] usage basique couleurs/fonts
+  - [X] usage basique couleurs/fonts
   - [ ] Comporte des données supplémentaires (utilisées !). Eg: "content-xxx", "bg-xxx", "grid-cols-xxx"...
     - liens
 - Composants "accessibles" (0-1-2pts)
-  - [ ] textes "accessibles" (eg. 'sr-only')
+  - [X] textes "accessibles" (eg. 'sr-only')
   - [ ] Contenu accessible ET Usage de composants étudié pour accessibilité (Eg. HeadlessUI)
 
 [^1]: Supprimez les mentions inutiles.
