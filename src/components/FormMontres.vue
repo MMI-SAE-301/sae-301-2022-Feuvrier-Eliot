@@ -58,7 +58,7 @@ const { data, error } = await supabase
       error
     );
   } else {
-    router.push("/montres");
+    router.push("/personnalisation");
   }
 }
 
