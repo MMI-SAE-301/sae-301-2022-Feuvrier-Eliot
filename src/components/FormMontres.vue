@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
  import type { Montre } from "@/types"
  import { ref } from "vue";
  import {supabase} from "@/supabase"
@@ -20,7 +21,6 @@ if (props.id) {
  else montre.value = data[0];
 }
 
-// @ts-ignore
 async function upsertMontre(dataForm, node) {
  const { data, error } = await supabase.from("Montre").upsert(dataForm);
  if (error) node.setErrors([error.message]);
@@ -107,7 +107,6 @@ const { data, error } = await supabase
 
             <button
         type="button"
-
         v-if="quartierObject.id"
         @click="($refs.dialogSupprimer as any).showModal()"
         class="focus-style justify-self-end rounded-md bg-red-400 p-2 shadow-sm"
