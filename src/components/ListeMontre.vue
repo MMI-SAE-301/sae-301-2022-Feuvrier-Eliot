@@ -16,7 +16,7 @@ if (error) {
 </script>
 <template>
     
-  <ul class="flex gap-5">
+  <ul class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(250px,2fr))] mx-[15%]  gap-36 justify-items-center my-20 ">
     <li v-for="Montre in montres" :key="Montre.id">
       <router-link
         :to="{ name: 'montre-edit-id', params: { id: Montre.id } }"

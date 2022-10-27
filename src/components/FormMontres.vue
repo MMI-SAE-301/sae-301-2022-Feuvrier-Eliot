@@ -12,7 +12,7 @@ const props = defineProps(["id", "Montre"]);
 if (props.id) {
  // On charge les données de la table montre
  let { data, error } = await supabase
- .from("montre")
+ .from("Montre")
  .select("*")
  .eq("id", props.id);
  if (error || !data)
@@ -43,7 +43,7 @@ async function upsertMontre(dataForm, node) {
         :submit-attrs="{
             classes: {
                 input :
-                `rounded-xl mt-4 px-16 mx-12 bg-gradient-to-b from-Noir-0 via-Noir-0 to-Violet-Bleu-0 text-white font-liberation px-5 py-3 hover:bg-gradient-to-b hover:from-Violet-Bleu-dark-0 hover:via-Violet-Bleu-dark-0 hover:to-Violet-Bleu-0`
+                `rounded-xl mt-4 px-16 mx-12 text-white font-liberation px-5 py-3 bg-gradient-to-t from-Violet-Bleu-dark-0 via-Violet-Bleu-dark-0 hover:to-Violet-Bleu-0`
             }
         }"
         >
