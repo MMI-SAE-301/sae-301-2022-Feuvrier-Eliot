@@ -13,7 +13,7 @@ module.exports = {
         'Noir': ['#000000'],
         'Violet-Bleu-dark': ['#3B2067'],
         'Violet-Bleu': ['#9250FD'],
-        'Gris': ['#272727']
+        'Gris': ['#C2C2C2']
         
       },
     },

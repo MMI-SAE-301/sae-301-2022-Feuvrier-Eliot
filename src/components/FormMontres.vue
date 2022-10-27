@@ -39,11 +39,18 @@ async function upsertMontre(dataForm, node) {
         </div>
         <br>
         <div>
-        <FormKit type="form" v-model="montre" @submit="upsertMontre">
+        <FormKit type="form" v-model="montre" @submit="upsertMontre"
+        :submit-attrs="{
+            classes: {
+                input :
+                `rounded-xl mt-4 px-16 mx-12 bg-gradient-to-b from-Noir-0 via-Noir-0 to-Violet-Bleu-0 text-white font-liberation px-5 py-3 hover:bg-gradient-to-b hover:from-Violet-Bleu-dark-0 hover:via-Violet-Bleu-dark-0 hover:to-Violet-Bleu-0`
+            }
+        }"
+        >
             <div>
                 <h1 class="text-white">Bracelet</h1>
                 <br>
-            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-5 mb-2">
+            <div class="bg-Gris-0 rounded-xl pl-8 pr-10 py-5 mb-2">
                 <FormKitListColors name="bracelet" />
             </div>
         </div>
@@ -51,7 +58,7 @@ async function upsertMontre(dataForm, node) {
             <div>
                 <h1 class="text-white">Boitier</h1>
                 <br>
-            <div class="bg-Gris-0 rounded-3xl pl-8 pr-10 py-5 mb-2">
+            <div class="bg-Gris-0 rounded-xl pl-8 pr-10 py-5 mb-2">
                 <FormKitListColors name="boitier" />
             </div>
         </div>
@@ -59,7 +66,7 @@ async function upsertMontre(dataForm, node) {
             <div>
                 <h1 class="text-white">Ecran</h1>
                 <br>
-            <div class="bg-Gris-0 rounded-3xl pl-8 pr-5 py-5 mb-2">
+            <div class="bg-Gris-0 rounded-xl pl-8 pr-5 py-5 mb-2">
                 <FormKitListColors name="ecran" />
             </div>
         </div>
