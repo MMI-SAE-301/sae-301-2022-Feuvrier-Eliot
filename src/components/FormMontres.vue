@@ -29,6 +29,39 @@ async function upsertMontre(dataForm, node) {
  router.push({ name: "montre-edit-id", params: { id: data[0].id } });
  }
 }
+
+const quartierObject = ref({});
+if (props.id) {
+  // On charge les données de la vue quartiercommune
+  let { data, error } = await supabase
+    .from("Montre")
+    .select("*")
+    .eq("id", props.id);
+  if (error || !data)
+    console.log("n'a pas pu charger le table Maison :", error);
+  else quartierObject.value = data[0];
+}
+
+async function supprimerMontre() {
+const { data, error } = await supabase
+  .from('Montre')
+  .delete()
+  // @ts-ignore
+  .match({ id: quartierObject.value.id })
+
+  if (error) {
+    console.error(
+      "Erreur à la suppression de ",
+      // @ts-ignore
+      quartierObject.value.id,
+      "erreur :",
+      error
+    );
+  } else {
+    router.push("/montres");
+  }
+}
+
 </script>
 
 <template>
@@ -71,6 +104,34 @@ async function upsertMontre(dataForm, node) {
             </div>
         </div>
             <br>
+
+            <button
+        type="button"
+
+        v-if="quartierObject.id"
+        @click="($refs.dialogSupprimer as any).showModal()"
+        class="focus-style justify-self-end rounded-md bg-red-400 p-2 shadow-sm"
+      >
+        Supprimer l'offre
+      </button>
+      <dialog
+        ref="dialogSupprimer"
+        @click="($event.currentTarget as any).close()"
+      >
+        <button
+          type="button"
+          class="focus-style justify-self-end rounded-md bg-white p-2 shadow-sm"
+        >
+          Annuler</button
+        ><button
+          type="button"
+          @click="supprimerMontre()"
+          class="focus-style rounded-md bg-red-600 p-2 shadow-sm"
+        >
+          Confirmer suppression
+        </button>
+      </dialog>
+
 
         </FormKit>
 
