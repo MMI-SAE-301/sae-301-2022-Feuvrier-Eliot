@@ -21,11 +21,11 @@
             <p class=" font-liberation text-xs font-bold text-white">Copyright© 1995-2022 Tik.tak. Tous droits réservés.</p>
             <div class=" flex justify-end gap-5 mr-3">
                 <p class=" font-liberation text-xs font-bold text-white">rejoignez nous sur </p>
-                <img src="public/instagram.svg" alt="instagram">
-                <img src="public/facebook.svg" alt="instagram">
-                <img src="public/twitter.svg" alt="instagram">
-                <img src="public/youtube.svg" alt="instagram">
-                <img src="public/linkedin.svg" alt="instagram">
+                <img src="/public/instagram.svg" alt="instagram">
+                <img src="/public/facebook.svg" alt="instagram">
+                <img src="/public/twitter.svg" alt="instagram">
+                <img src="/public/youtube.svg" alt="instagram">
+                <img src="/public/linkedin.svg" alt="instagram">
             </div>
         </div>
 </div>

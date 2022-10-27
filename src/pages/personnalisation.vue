@@ -15,16 +15,16 @@
         <!-- button + arrow -->
         <div class="flex justify-end gap-6 mt-14">
           <button class="bg-Noir-0 text-white font-liberation text-base py-4 px-8 rounded-xl">En savoir plus</button>
-          <img src="public/flèche.svg">
+          <img src="/public/flèche.svg">
         </div>
       </div>
       <div>
-        <img class="min-w-max mb-4" src="public/image-page-personnalisation.png" alt="image page personnalisation">
+        <img class="min-w-max mb-4" src="/public/image-page-personnalisation.png" alt="image page personnalisation">
       </div>
     </div>
 
     <div>
-      <img src="public/vecteur.jpg" class="w-full">
+      <img src="/public/vecteur.jpg" class="w-full">
     </div>
 
     <div class="bg-gradient-to-b from-Noir-0 via-Noir-0 to-Violet-Bleu-0 ">

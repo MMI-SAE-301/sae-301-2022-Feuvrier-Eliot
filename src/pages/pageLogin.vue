@@ -1,7 +1,7 @@
 <template>
 
 <div class="flex felx row mx-auto w-1/2 justify-center mb-20 mt-20">
-  <img src="public/image-formulaire-auth.jpg" alt="image formulaire auth"> 
+  <img src="/public/image-formulaire-auth.jpg" alt="image formulaire auth"> 
 
   <div class="grow grid-rows-1 bg-slate-600 px-40">
     <div class="w-64">

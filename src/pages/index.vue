@@ -16,16 +16,16 @@
         <!-- button + arrow -->
         <div class="flex justify-end gap-6 mt-7">
           <button class="bg-Noir-0 text-white font-liberation text-base py-4 px-8 rounded-xl">En savoir plus</button>
-          <img src="public/flèche.svg">
+          <img src="/public/flèche.svg">
         </div>
       </div>
       <div>
-        <img class="max-w-lg" src="public/image-montre-page-d'accueil.jpg" alt="">
+        <img class="max-w-lg" src="/public/image-montre-page-daccueil.jpg" alt="">
       </div>
     </div>
 
     <div>
-      <img src="public/vecteur.jpg" class="w-full">
+      <img src="/public/vecteur.jpg" class="w-full">
     </div>
 
     <div class="flex flex-row bg-gradient-to-b from-Noir-0 via-Noir-0 to-Violet-Bleu-0 ">
@@ -37,15 +37,15 @@
   
 
   <div class="basis-1/4">
-    <img src="public/montre-middle.png" alt="">
+    <img src="/public/montre-middle.png" alt="">
   </div>
 
 </div>
 
 
 <div class="flex flex-row  bg-gradient-to-b from-Violet-Bleu-0 via-Violet-Bleu-0 to-Noir-0 ">
-  <img src="public/montre bracelet.png" alt="montre descriptif">
-  <img class="w-max" src="public/image-2-page-d'accueil.png" alt="montre sur la main">
+  <img src="/public/montre-bracelet.png" alt="montre descriptif">
+  <img class="w-max" src="/public/image-2-page-daccueil.png" alt="montre sur la main">
   </div>
 
 </div>
