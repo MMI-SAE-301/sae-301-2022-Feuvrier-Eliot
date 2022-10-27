@@ -15,6 +15,15 @@
 
 
 
+CREATE VIEW allCuir as
+SELECT "montre".*
+FROM "matériaux","montre"
+WHERE "matériaux".id_matériaux = "montre".id_matériaux
+AND "matériaux".libelle = 'Cuir';
+
+CREATE VIEW allMontre as
+SELECT *
+FROM "montre"
 
 --
 -- code pour la création des policies
