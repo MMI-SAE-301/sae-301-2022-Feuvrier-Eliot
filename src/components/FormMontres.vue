@@ -39,11 +39,11 @@ async function upsertMontre(dataForm, node) {
         </div>
         <br>
         <div>
-        <FormKit type="form" v-model="montre" @submit="upsertMontre"
+        <FormKit submit-label="Modifier" type="form" v-model="montre" @submit="upsertMontre"
         :submit-attrs="{
             classes: {
                 input :
-                `rounded-xl mt-4 px-16 mx-12 text-white font-liberation px-5 py-3 bg-gradient-to-t from-Violet-Bleu-dark-0 via-Violet-Bleu-dark-0 hover:to-Violet-Bleu-0`
+                `rounded-xl mt-4 px-16 mx-12 text-white font-liberation px-5 py-3 bg-gradient-to-t from-Violet-Bleu-dark-0 via-Violet-Bleu-dark-0 to-Violet-Bleu-0`
             }
         }"
         >
